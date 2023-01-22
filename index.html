@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Piedra,papel o tijera</title>
+</head>
+<body>
+    
+    <h1>Piedra, Papel o Tijera</h1>
+    
+    <p>Tres (3) puntos para ganar</p>
+    
+    <ul id="marcador">
+        <li><h2 id="ronda">Ronda 0</h2></li>
+        <li><h2 id="puntosUsuario">Puntos Usuario: 0</h2></li>
+        <li><h2 id="puntosPC">Puntos Maquina: 0</h2></li>
+    </ul>
+    
+
+    <h2 id="pc">Maquina:</h2>
+    <h2 id="usuario">Usuario:</h2>
+    <label>Piedra<input id="piedra" type="radio" name="botones" value="Piedra"></label>
+    <label>Papel<input id="papel" type="radio" name="botones" value="Papel"></label>
+    <label>Tijera<input id="tijera" type="radio" name="botones" value="Tijera"></label><br>
+    <button id="btnJugada">Hacer jugada</button>
+    <button id="btnComenzar">Volver a jugar</button>
+    
+    <div id="ganador"></div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
