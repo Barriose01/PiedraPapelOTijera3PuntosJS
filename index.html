@@ -8,29 +8,38 @@
     <title>Piedra,papel o tijera</title>
 </head>
 <body>
-    
-    <h1>Piedra, Papel o Tijera</h1>
-    
-    <p>Tres (3) puntos para ganar</p>
-    
-    <ul id="marcador">
-        <li><h2 id="ronda">Ronda 0</h2></li>
-        <li><h2 id="puntosUsuario">Puntos Usuario: 0</h2></li>
-        <li><h2 id="puntosPC">Puntos Maquina: 0</h2></li>
-    </ul>
-    
-
-    <h2 id="pc">Maquina:</h2>
-    <h2 id="usuario">Usuario:</h2>
-    <label>Piedra<input id="piedra" type="radio" name="botones" value="Piedra"></label>
-    <label>Papel<input id="papel" type="radio" name="botones" value="Papel"></label>
-    <label>Tijera<input id="tijera" type="radio" name="botones" value="Tijera"></label><br>
-    <button id="btnJugada">Hacer jugada</button>
-    <button id="btnComenzar">Volver a jugar</button>
-    
-    <div id="ganador"></div>
-
-    <script src="index.js"></script>
-    
+    <div id="contenido">
+        <header>
+            <h1>Piedra, Papel o Tijera</h1>
+        </header>
+        <main>
+            <p>Tres (3) puntos para ganar</p>
+        
+            <ul id="marcador">
+                <li><h2 id="ronda">Ronda 0</h2></li>
+                <li><h2 id="puntosUsuario">Puntos Usuario: 0</h2></li>
+                <li><h2 id="puntosPC">Puntos Maquina: 0</h2></li>
+            </ul>
+            
+            <article id="bloqueUsuario">
+                <h2 id="usuario">Usuario:</h2>
+            </article>
+            
+            <article id="bloquePC">
+                <h2 id="pc">Maquina:</h2>
+            </article>
+            
+            
+            <button class= "botones-accion" id="btnPiedra">Piedra</button>
+            <button class= "botones-accion" id="btnPapel">Papel</button>
+            <button  class= "botones-accion" id="btnTijera">Tijera</button>
+            <button id="btnVolverJugar">Volver a jugar</button><br>
+            
+            
+            <div id="ganador"></div>
+        </main>
+        <footer>&copy Eddie Casanas 2023</footer>
+    </div>
+    <script src="index.js"></script>  
 </body>
 </html>
