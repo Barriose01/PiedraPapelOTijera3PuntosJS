@@ -39,39 +39,39 @@ function darPuntuacion(opcionUsuario,opcionPC){
     let imagenPC = document.createElement("img");
     switch(opcionUsuario){
         case "Piedra":
-            imagenUsuario.src = "piedra.jpg";
+            imagenUsuario.src = "imagenes/piedra.jpg";
             if(opcionPC == "Papel"){
-                imagenPC.src = "papel.jpg";
+                imagenPC.src = "imagenes/papel.jpg";
                 puntosPC +=1;
             }else if(opcionPC == "Tijera"){
-                imagenPC.src = "tijera.jpg";
+                imagenPC.src = "imagenes/tijera.jpg";
                 puntosUsuario += 1;
             }else{
-                imagenPC.src = "piedra.jpg";
+                imagenPC.src = "imagenes/piedra.jpg";
             }
             break;
         case "Papel":
-            imagenUsuario.src = "papel.jpg";
+            imagenUsuario.src = "imagenes/papel.jpg";
             if(opcionPC == "Tijera"){
-                imagenPC.src = "tijera.jpg";
+                imagenPC.src = "imagenes/tijera.jpg";
                 puntosPC +=1;
             }else if(opcionPC == "Piedra"){
-                imagenPC.src = "piedra.jpg";
+                imagenPC.src = "imagenes/piedra.jpg";
                 puntosUsuario +=1;
             }else{
-                imagenPC.src = "papel.jpg";
+                imagenPC.src = "imagenes/papel.jpg";
             }
             break;
         case "Tijera":
-            imagenUsuario.src = "tijera.jpg";
+            imagenUsuario.src = "imagenes/tijera.jpg";
             if(opcionPC == "Piedra"){
-                imagenPC.src = "piedra.jpg";
+                imagenPC.src = "imagenes/piedra.jpg";
                 puntosPC += 1;
             }else if(opcionPC == "Papel"){
-                imagenPC.src = "papel.jpg";
+                imagenPC.src = "imagenes/papel.jpg";
                 puntosUsuario += 1;
             }else{
-                imagenPC.src = "tijera.jpg";
+                imagenPC.src = "imagenes/tijera.jpg";
             }
             break;
     }
