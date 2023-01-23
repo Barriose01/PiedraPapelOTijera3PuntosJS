@@ -1,7 +1,7 @@
 # PiedraPapelOTijera3PuntosJS
 Juego de Piedra, Papel o Tijera como una aplicacion web de JavaScript
 
-Al entrar a la pagina, se obtiene la siguiente pantalla:
+Al entrar al archivo .html , se obtiene la siguiente pantalla:
 
 ![image](https://user-images.githubusercontent.com/107152796/214112352-e61d8ffb-82b5-42f9-8ce9-94af49f11d19.png)
 
