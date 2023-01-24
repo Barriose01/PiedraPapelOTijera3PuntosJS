@@ -7,18 +7,18 @@ Al entrar al archivo .html , se obtiene la siguiente pantalla:
 
 El usuario podra elegir entre las opciones de piedra, papel o tijera. Para ello, tiene que hacer click en alguno de los botones:
 
-![image](https://user-images.githubusercontent.com/107152796/214112520-a0f06b9c-e897-44dc-9e7e-57a6a441d4c9.png)
+![image](https://user-images.githubusercontent.com/107152796/214336431-c60d3985-686c-4e5b-b988-64750f711d25.png)
 
-En este caso, el usuario eligio "Piedra" y la maquina eligio "Papel", por lo que la maquina gana un punto.
+En este caso, tanto el usuario como la maquina eligieron "Tijera", por lo que resulta en empate y nadie gana puntos
 
 Prestar atencion en el marcador que aparece en la parte superior de la pagina. Se tiene un contador de las rondas que se han jugado,
 los puntos que lleva el usuario y los puntos que lleva la maquina:
 
-![image](https://user-images.githubusercontent.com/107152796/214112720-5372231a-e0e1-45c9-b074-0d10e8ff8dd2.png)
+![image](https://user-images.githubusercontent.com/107152796/214336593-bbd2b0f8-afbd-45b2-9608-24ce8cd5be8d.png)
 
 Cuando el usuario o la maquina lleguen a 3 puntos, se terminara el juego y se declarara el ganador:
 
-![image](https://user-images.githubusercontent.com/107152796/214112829-d8e1cad8-2da9-4cb6-9f07-3f02a4f83060.png)
+![image](https://user-images.githubusercontent.com/107152796/214336751-f5e6604b-4d2a-4114-9b8e-3ced0338b45b.png)
 
 Para volver a jugar, hay que hacer click en el boton "Volver a jugar" y se podra iniciar un nuevo juego:
 
