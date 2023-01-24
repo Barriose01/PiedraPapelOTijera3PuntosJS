@@ -48,6 +48,7 @@ function darPuntuacion(opcionUsuario,opcionPC){
                 puntosUsuario += 1;
             }else{
                 imagenPC.src = "imagenes/piedra.jpg";
+                imagenPC.style.transform = "rotateY(180deg)";
             }
             break;
         case "Papel":
@@ -57,6 +58,7 @@ function darPuntuacion(opcionUsuario,opcionPC){
                 puntosPC +=1;
             }else if(opcionPC == "Piedra"){
                 imagenPC.src = "imagenes/piedra.jpg";
+                imagenPC.style.transform = "rotateY(180deg)";
                 puntosUsuario +=1;
             }else{
                 imagenPC.src = "imagenes/papel.jpg";
@@ -64,8 +66,10 @@ function darPuntuacion(opcionUsuario,opcionPC){
             break;
         case "Tijera":
             imagenUsuario.src = "imagenes/tijera.jpg";
+            imagenUsuario.style.transform = "rotateY(180deg)";
             if(opcionPC == "Piedra"){
                 imagenPC.src = "imagenes/piedra.jpg";
+                imagenPC.style.transform = "rotateY(180deg)";
                 puntosPC += 1;
             }else if(opcionPC == "Papel"){
                 imagenPC.src = "imagenes/papel.jpg";
