@@ -35,7 +35,7 @@ article{
 }
 
 article img{
-    width: 250px;
+    width: 50%;
     height: 200px;
     padding-bottom: 20px;
 }
@@ -65,7 +65,7 @@ article img{
 
 button{
     width: 18%;
-    font-size: 30px;
+    font-size: 25px;
     display: inline-block;
     margin: 22px;
     margin-top: 30px;
