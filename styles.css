@@ -1,15 +1,25 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body{
     background-color: white;
     text-align: center;
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+header *{
+    margin: 0;
 }
 #contenido{
     width: 85%;
     margin: 0px auto;
 }
 header{
-    height: 60px;
     font-size: 25px;
     text-align: center;
 }
@@ -21,16 +31,18 @@ header, footer{
     background-color: black;
     color: #f2ff00;
 }
+
 main{
     background-color: #f2ff00;
     color: black;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 article{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 48%;
-    margin: 5px auto;
+    width: 90%;
+    margin: 5px ;
     border: 5px outset black;
 }
 
@@ -41,11 +53,12 @@ article img{
 }
 
 #marcador{
-    width: 50%;
-    text-align: center;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
     list-style-type: none;
     font-size: 15px;
+    padding: 0;
 }
 #marcador li{
     font-size: 16px;
@@ -64,8 +77,9 @@ article img{
 }
 
 button{
-    width: 18%;
+    width: 90%;
     font-size: 25px;
+    padding: 20px;
     display: inline-block;
     margin: 22px;
     margin-top: 30px;
@@ -76,4 +90,24 @@ button{
 #ganador{
     font-size: 50px;
     clear: both;
+}
+
+@media(min-width: 742px){
+    main{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #marcador{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    article{
+        flex-basis: 48%;
+        margin: 5px;
+    }
+    button{
+        flex-basis: 18%;
+        padding: 10px;
+    }
 }
