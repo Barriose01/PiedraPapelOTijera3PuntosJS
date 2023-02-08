@@ -92,7 +92,7 @@ button{
     clear: both;
 }
 
-@media(min-width: 742px){
+@media(min-width: 760px){
     main{
         flex-direction: row;
         flex-wrap: wrap;
